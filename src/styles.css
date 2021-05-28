@@ -59,7 +59,7 @@
 	--notion-item-purple: rgba(103, 36, 222, 0.2);
 	--notion-item-gray: rgba(155, 154, 151, 0.4);
 
-	--notion-max-width: 800px;
+	--notion-max-width: 720px;
 	--notion-header-height: 45px;
 }
 
@@ -1982,7 +1982,7 @@ svg.notion-page-icon {
 		padding-left: 2vw;
 		padding-right: 2vw;
 
-		--notion-max-width: 800px;
+		--notion-max-width: 720px;
 	}
 
 	.notion-asset-wrapper {
