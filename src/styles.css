@@ -557,8 +557,8 @@
 
 .notion-page {
 	width: var(--notion-max-width);
-	/* padding-left: calc(min(12px, 8vw)); */
-	/* padding-right: calc(min(12px, 8vw)); */
+	padding-left: calc(min(12px, 8vw));
+	padding-right: calc(min(12px, 8vw));
 }
 
 /* this is the class that activates, if the document is full width */
