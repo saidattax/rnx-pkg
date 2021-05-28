@@ -2380,3 +2380,7 @@ svg.notion-page-icon {
 .notion-search .resultsPane .result:active {
 	background: rgba(55, 53, 47, 0.16) !important;
 }
+
+* {
+	box-sizing: border-box;
+}
