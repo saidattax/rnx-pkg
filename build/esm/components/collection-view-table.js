@@ -7,7 +7,7 @@ export var CollectionViewTable = function (_a) {
     var _b, _c;
     var collection = _a.collection, collectionView = _a.collectionView, collectionData = _a.collectionData, padding = _a.padding, width = _a.width;
     var recordMap = useNotionContext().recordMap;
-    console.log('table', { collection: collection, collectionView: collectionView, collectionData: collectionData });
+    // console.log('table', { collection, collectionView, collectionData })
     var properties = [];
     if ((_b = collectionView.format) === null || _b === void 0 ? void 0 : _b.table_properties) {
         properties = (_c = collectionView.format) === null || _c === void 0 ? void 0 : _c.table_properties.filter(function (p) { return p.visible && collection.schema[p.property]; });

@@ -442,7 +442,7 @@
         "affectsGlobalScope": false
       },
       "../../src/utils.ts": {
-        "version": "ca09bf53c7be781f1951ed1d8c6b035dd34e2b149f72d4c0396360cf0c055c18",
+        "version": "2f24ae9310b052ff4c340a42967be2969f8eb2895f161c04f1be3c0b8b507573",
         "signature": "f2c9a45698fdd7578d2cb9622a06e0e8a99f44dd482c1cf55f71aa9b46741aca",
         "affectsGlobalScope": false
       },
@@ -527,7 +527,7 @@
         "affectsGlobalScope": false
       },
       "../../src/components/text.tsx": {
-        "version": "383e75ac87ae8e248ab69935b668306854aff1d4810e87a76d7d5cd0070f4448",
+        "version": "9ada1e742cfd8a9ecb7c554d428c7f1b568b0a89f22c30de8298d919a9c4652f",
         "signature": "fbc74c2163f0acf5b3918ce968b90fa28350dd9647ea8582107d54893ba64984",
         "affectsGlobalScope": false
       },
@@ -612,7 +612,7 @@
         "affectsGlobalScope": false
       },
       "../../src/block.tsx": {
-        "version": "11490b12a7e5b5bb36cbdfc6c91def0b785707c5bb0795b866cc9186449293de",
+        "version": "0ed3c5d418467fd31657c3a7058d7884511433831fd25ca7b7b8bfee494a47a3",
         "signature": "f118c6f26639ef105a55a8ad9a883f7b27e975326b2a9f02af9e261888b61eb5",
         "affectsGlobalScope": false
       },
@@ -1442,7 +1442,7 @@
         "affectsGlobalScope": false
       },
       "../../src/components/collection-view-table.tsx": {
-        "version": "b241cfc637c3ce0c06c781d1d473dbcea08f161f2a7728a9720ef4ae4188ca1c",
+        "version": "608d032056b083a73d6a686c91e449f2b44d05bd0bcf7d179afd4b28c08de425",
         "signature": "8371c3674d34354bd7a70c9454b803dbedc5f0ec0e75d428c3e1035dbc23b070",
         "affectsGlobalScope": false
       },
@@ -1452,12 +1452,12 @@
         "affectsGlobalScope": false
       },
       "../../src/components/collection-view-gallery.tsx": {
-        "version": "0b5117c6ac4a8c1f801e5a3890b9b7660627d843475edc2b782cbd3f6b7e77ff",
+        "version": "cf393e4017a7f781408fb7220c2277b921d566370061cc19ff442a067eec4c2d",
         "signature": "27defa77dfebc95ba4a250883cf58ec4ada9313f48d4cd8e7a245e6c0ee1dfae",
         "affectsGlobalScope": false
       },
       "../../src/components/collection-view-list.tsx": {
-        "version": "3c5280931c61bc4b7a1f8bb87f85ea26b05a3c47892c5243f5d43a3d80babe7f",
+        "version": "83f0fa43a27732bd65a5f3875013df99925b2a316d7c4d5ebd1e207a4bd9adab",
         "signature": "f1c865377d33af4a696f2b7972e1f95c075c10212b48359e46abb418259269de",
         "affectsGlobalScope": false
       },
@@ -1467,7 +1467,7 @@
         "affectsGlobalScope": false
       },
       "../../src/components/collection-view-board.tsx": {
-        "version": "0a9db147a126766c8f90d1646ae3e160a87b74c5d54428930dc5abe5996e3257",
+        "version": "fa882185fdaddf77e8d59fe6de7418ccbb653fa40e0531c819d3a473e01b18ca",
         "signature": "a77c5c0048dbb45a8b3731781e8a0dd365b531b55b2ec8bd1f9e107da6193743",
         "affectsGlobalScope": false
       },

@@ -8,7 +8,7 @@ export var CollectionViewBoard = function (_a) {
     var collection = _a.collection, collectionView = _a.collectionView, collectionData = _a.collectionData, padding = _a.padding;
     var recordMap = useNotionContext().recordMap;
     var _b = collectionView.format || {}, _c = _b.board_cover, board_cover = _c === void 0 ? { type: 'none' } : _c, _d = _b.board_cover_size, board_cover_size = _d === void 0 ? 'medium' : _d, _e = _b.board_cover_aspect, board_cover_aspect = _e === void 0 ? 'cover' : _e;
-    console.log('board', { collection: collection, collectionView: collectionView, collectionData: collectionData });
+    // console.log('board', { collection, collectionView, collectionData })
     return (React.createElement("div", { className: 'notion-board lauda' },
         React.createElement("div", { className: cs('notion-board-view', "notion-board-view-size-" + board_cover_size), style: {
             // paddingLeft: padding

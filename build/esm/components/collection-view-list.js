@@ -4,7 +4,7 @@ import { useNotionContext } from '../context';
 export var CollectionViewList = function (_a) {
     var collection = _a.collection, collectionView = _a.collectionView, collectionData = _a.collectionData;
     var _b = useNotionContext(), components = _b.components, recordMap = _b.recordMap, mapPageUrl = _b.mapPageUrl;
-    console.log('list', { collection: collection, collectionView: collectionView, collectionData: collectionData });
+    // console.log('list', { collection, collectionView, collectionData })
     return (React.createElement("div", { className: 'notion-list-collection' },
         React.createElement("div", { className: 'notion-list-view' },
             React.createElement("div", { className: 'notion-list-body' }, collectionData.blockIds.map(function (blockId) {

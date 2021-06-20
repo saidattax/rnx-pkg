@@ -244,7 +244,9 @@ export var Block = function (props) {
         case 'code': {
             if (block.properties.title) {
                 var content = block.properties.title[0][0];
-                var language = block.properties.language[0][0];
+                var language = block.properties.language
+                    ? block.properties.language[0][0]
+                    : '';
                 // TODO: add className
                 return (React.createElement(components.code, { key: block.id, language: language || '', code: content }));
             }

@@ -23,7 +23,9 @@ var groupBlockContent = function (blockMap) {
                     lastType = blockType;
                     output[index] = [];
                 }
-                output[index].push(blockId);
+                if (index > -1) {
+                    output[index].push(blockId);
+                }
             });
         }
         lastType = undefined;

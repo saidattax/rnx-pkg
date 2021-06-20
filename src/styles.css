@@ -236,6 +236,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
+	z-index: -1;
 }
 
 .medium-zoom-overlay {
@@ -555,7 +556,7 @@
 	max-height: 124px;
 }
 
-.notion-page {
+.notion-page-width {
 	width: var(--notion-max-width);
 	padding-left: calc(min(12px, 8vw));
 	padding-right: calc(min(12px, 8vw));
