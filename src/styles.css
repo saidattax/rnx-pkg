@@ -556,6 +556,8 @@
 	max-height: 124px;
 }
 
+/* this is the class that dictates the width of the document */
+/* this should be only activated incase of notion pages */
 .notion-page-width {
 	width: var(--notion-max-width);
 	padding-left: calc(min(12px, 8vw));
@@ -563,6 +565,7 @@
 }
 
 /* this is the class that activates, if the document is full width */
+/* we want max full width of 1200px */
 .notion-full-width {
 	/* --notion-max-width: calc(min(1920px, 98vw)); */
 	--notion-max-width: 1200px;

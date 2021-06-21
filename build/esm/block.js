@@ -96,7 +96,7 @@ export var Block = function (props) {
                                 hasPageCover ? (pageCover ? (pageCover) : (React.createElement(LazyImage, { src: mapImageUrl(page_cover, block), alt: getTextContent(properties === null || properties === void 0 ? void 0 : properties.title), className: 'notion-page-cover', style: {
                                         objectPosition: "center " + coverPosition + "%"
                                     } }))) : null,
-                                React.createElement("main", { className: cs('notion-page', hasPageCover
+                                React.createElement("main", { className: cs('notion-page', 'notion-page-width', hasPageCover
                                         ? 'notion-page-has-cover'
                                         : 'notion-page-no-cover', page_icon
                                         ? 'notion-page-has-icon'
@@ -130,7 +130,10 @@ export var Block = function (props) {
                                 footer))));
                 }
                 else {
-                    return (React.createElement("main", { className: cs('notion', darkMode ? 'dark-mode' : 'light-mode', 'notion-page', page_full_width && 'notion-full-width', page_small_text && 'notion-small-text', blockId, className, bodyClassName) },
+                    return (React.createElement("main", { className: cs('notion', darkMode ? 'dark-mode' : 'light-mode', 'notion-page', 
+                        // disabling this, as when notion page is false,
+                        // page_full_width && 'notion-full-width',
+                        page_small_text && 'notion-small-text', blockId, className, bodyClassName) },
                         React.createElement("div", { className: 'notion-viewport' }),
                         pageHeader,
                         block.type === 'page' && block.parent_table === 'collection' && (React.createElement(components.collectionRow, { block: block })),

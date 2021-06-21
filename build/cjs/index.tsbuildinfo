@@ -612,7 +612,7 @@
         "affectsGlobalScope": false
       },
       "../../src/block.tsx": {
-        "version": "0ed3c5d418467fd31657c3a7058d7884511433831fd25ca7b7b8bfee494a47a3",
+        "version": "b7f8a88cd71ebba49462100ab6a3f9f360fec5193a8e79792a007575edd12fce",
         "signature": "f118c6f26639ef105a55a8ad9a883f7b27e975326b2a9f02af9e261888b61eb5",
         "affectsGlobalScope": false
       },

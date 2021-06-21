@@ -102,7 +102,7 @@ var Block = function (props) {
                                 hasPageCover ? (pageCover ? (pageCover) : (react_1["default"].createElement(lazy_image_1.LazyImage, { src: mapImageUrl(page_cover, block), alt: notion_utils_1.getTextContent(properties === null || properties === void 0 ? void 0 : properties.title), className: 'notion-page-cover', style: {
                                         objectPosition: "center " + coverPosition + "%"
                                     } }))) : null,
-                                react_1["default"].createElement("main", { className: utils_1.cs('notion-page', hasPageCover
+                                react_1["default"].createElement("main", { className: utils_1.cs('notion-page', 'notion-page-width', hasPageCover
                                         ? 'notion-page-has-cover'
                                         : 'notion-page-no-cover', page_icon
                                         ? 'notion-page-has-icon'
@@ -136,7 +136,10 @@ var Block = function (props) {
                                 footer))));
                 }
                 else {
-                    return (react_1["default"].createElement("main", { className: utils_1.cs('notion', darkMode ? 'dark-mode' : 'light-mode', 'notion-page', page_full_width && 'notion-full-width', page_small_text && 'notion-small-text', blockId, className, bodyClassName) },
+                    return (react_1["default"].createElement("main", { className: utils_1.cs('notion', darkMode ? 'dark-mode' : 'light-mode', 'notion-page', 
+                        // disabling this, as when notion page is false,
+                        // page_full_width && 'notion-full-width',
+                        page_small_text && 'notion-small-text', blockId, className, bodyClassName) },
                         react_1["default"].createElement("div", { className: 'notion-viewport' }),
                         pageHeader,
                         block.type === 'page' && block.parent_table === 'collection' && (react_1["default"].createElement(components.collectionRow, { block: block })),
